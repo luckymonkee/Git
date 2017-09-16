@@ -20,6 +20,7 @@ public class AwesomeProject extends Application {
 	
 	
 	public static void main(String[] args) {
+<<<<<<< HEAD
 		  launch(args);
 		 }
 	
@@ -49,6 +50,11 @@ public class AwesomeProject extends Application {
 		s.show();
 		
 	}
+=======
+		// TODO Auto-generated method stub
+		
+		//Lucky Smells
+>>>>>>> 08c02abe3e25d75bb267a1f895f00582a119b493
 
 	private void move(MouseEvent m) {
 		clearScreen("Mouse");
