@@ -1,5 +1,3 @@
-
-
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.canvas.Canvas;
@@ -20,7 +18,6 @@ public class AwesomeProject extends Application {
 	
 	
 	public static void main(String[] args) {
-<<<<<<< HEAD
 		  launch(args);
 		 }
 	
@@ -42,19 +39,10 @@ public class AwesomeProject extends Application {
 		box.getChildren().addAll(clickToStart, text, background);
 		Scene game = new Scene(box);
 		s.setScene(game);
-			
-		
-		
-		
 		s.setTitle("Beer Drop");
 		s.show();
 		
 	}
-=======
-		// TODO Auto-generated method stub
-		
-		//Lucky Smells
->>>>>>> 08c02abe3e25d75bb267a1f895f00582a119b493
 
 	private void move(MouseEvent m) {
 		clearScreen("Mouse");
